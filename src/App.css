@@ -1,0 +1,57 @@
+button{
+  padding: 7px;
+  border: none;
+  margin: 7px;
+}
+
+:root{
+  --colorPrincipal: #19577A;
+  --colorSecundario: #BAFFFB;
+  --colorTerciario: #1D4355;
+  --colorFondo: #F6F5E8;
+}
+.text-color-secondary{
+  color: var(--colorSecundario);
+}
+
+.logo{
+  max-height: 150px;
+  max-width: 90%;
+
+}
+
+.menu{
+  background-color: var(--colorPrincipal);
+  color: var(--colorFondo);
+}
+
+@keyframes border-appear {
+  from {
+    border-bottom: 7px solid var(--colorPrincipal);
+  }
+  to {
+    border-bottom: 7px solid var(--colorSecundario);
+  }
+}
+
+.btn-menu:disabled{
+  background-color: var(--colorPrincipal);
+  color: var(--colorFondo);
+  font-size: large;
+  border-bottom: 7px solid var(--colorSecundario);
+  animation: border-appear 0.5s forwards;
+}
+
+.btn-menu{
+  background-color: var(--colorPrincipal);
+  color: var(--colorFondo);
+  font-size: large;
+}
+
+.btn-menu:hover{
+  animation: border-appear 1s forwards;
+}
+
+.custome-toggler.navbar-toggler {
+  border-color: var(--colorFondo); /* Puedes cambiar el color del borde */
+}
