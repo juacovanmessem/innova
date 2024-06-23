@@ -7,7 +7,7 @@ button{
 :root{
   --colorPrincipal: #19577A;
   --colorSecundario: #BAFFFB;
-  --colorTerciario: #1D4355;
+  --colorTerciario: #1d4355;
   --colorFondo: #F6F5E8;
 }
 .text-color-secondary{

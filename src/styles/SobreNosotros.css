@@ -1,0 +1,20 @@
+
+.bg-faded{
+  background-color: #19567acb;
+  color: var(--colorFondo);
+}
+
+.bg-1{
+  background-color: var(--colorPrincipal);
+  color: var(--colorFondo);
+}
+
+.bg-3{
+  background-color: var(--colorTerciario);
+  color: var(--colorFondo);
+}
+
+.headline{
+  color: var(--colorSecundario);
+  background-color: var(--colorPrincipal);
+}

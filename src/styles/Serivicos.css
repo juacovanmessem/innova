@@ -1,0 +1,13 @@
+.bg-2{
+  background-color: #1c6180;
+  color: var(--colorFondo);
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.headline-2{
+  color: var(--colorPrincipal);
+  text-decoration: underline var(--colorSecundario);
+}
