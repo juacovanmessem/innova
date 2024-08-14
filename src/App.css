@@ -55,3 +55,27 @@ button{
 .custome-toggler.navbar-toggler {
   border-color: var(--colorFondo); /* Puedes cambiar el color del borde */
 }
+
+.fixed-bottom-right{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.wp-icon{
+  height: 72px;
+  width: 72px;
+}
+
+.wp-icon:hover{
+  transform: translateY(-5px);
+  transition: 0.62s;
+}
+
+.blue-shadow{
+  filter: drop-shadow(2px 2px 1px var(--colorPrincipal));
+}
+
+.dark-blue-shadow{
+  filter: drop-shadow(2px 2px 1px var(--colorTerciario));
+
+}

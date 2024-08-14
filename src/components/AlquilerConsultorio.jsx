@@ -5,6 +5,9 @@ function AlquilerConsultorio() {
   return (
     <>
       <section className='mt-3 lead'>
+      <div className=' bg-3 w-100 p-2 mb-2'>
+          <p className="container-md">Como especialistas en comunicación y atención personalizada en el área de la salud, nuestro objetivo es ofrecer un espacio totalmente confortable y una atención integral y personalizada para tus pacientes, siempre con un enfoque en la excelencia.</p>
+        </div>
         <h2 className='headline text-center p-2 palanquin-dark-regular'>Sobre los consultorios</h2>
         <div className='container-md'>
           <p>Para tu comodidad, nuestros consultorios médicos cuenta con:</p>
@@ -37,9 +40,8 @@ function AlquilerConsultorio() {
       <section className='lead'>
         <h2 className='headline text-center p-2 palanquin-dark-regular'>Metodologia de alquiler</h2>
         <ul className='container-md'>
-          <li>Los consultorios ofrecen diferentes horarios.</li>
+          <li>Alquiler por módulos de 3 y 4 horas.</li>
           <li>Pueden ser ocupados por la mañana, siets o por la tarde.</li>
-          <li>El profesional puede alquilarlos por módulo.</li>
         </ul>
       </section>
       <section className='lead'>
@@ -49,9 +51,6 @@ function AlquilerConsultorio() {
           <li>Atención personalizada vía WhatsApp, creando un nuevo canal de comunicación.</li>
           <li>Servicio de facturación, si lo necesitara.</li>
         </ul>
-      </section>
-      <section>
-        <h3 className='text-center headline palanquin-dark-regular'>Te esperamos!</h3>
       </section>
     </>
   )

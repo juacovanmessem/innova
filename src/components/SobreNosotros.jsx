@@ -1,17 +1,21 @@
 import React from 'react'
 import '../styles/SobreNosotros.css'
-import bg1 from '../assets/fondo.1.jpg'
 import bg2 from '../assets/fondo.2.jpg'
+import clientes from '../assets/clientes.jpg'
+import Slider from "./Slider";
+import naty from '../assets/naty.jpg';
 
 
 function SobreNosotros() {
+
   return (
     <>
       <section>
         <div className='container-lg text-center my-2 p-4'>
-          <h1 className='headline p-2 palanquin-dark-regular'>QUIENES SOMOS</h1>
-          <p className='lead'>Soy Natalia Chiappino, creadora y Directora de INNOVA, con una sólida experiencia respaldada por años de trabajo en centros médicos y como secretaria de gerentes en el sector comercial. Me defino como una persona responsable, cordial y extrovertida, con un espíritu de superación constante que abraza con entusiasmo los desafíos que se presentan.</p> 
-          <p className='lead'>Mi trayectoria me ha dotado de una destacada capacidad organizativa, liderazgo, y habilidades tanto para las negociaciones como para trabajar de manera efectiva en equipo. Estoy comprometida con el crecimiento continuo y la excelencia, y asumo cada tarea con dedicación y entusiasmo.</p>
+          <h1 className='headline p-2 palanquin-dark-regular'>¿Que es Innova?</h1>
+            <p className='lead'> 
+              En INNOVA, nos especializamos en ofrecer soluciones digitales innovadoras y personalizadas para profesionales que buscan optimizar su presencia en línea y mejorar la eficiencia en sus tareas diarias. Con un equipo dedicado y apasionado, proporcionamos una gama completa de servicios diseñados para satisfacer las necesidades específicas de cada cliente.
+            </p>
         </div>
       </section>
       <section className='row g-0'>
@@ -24,6 +28,17 @@ function SobreNosotros() {
           <p className='lead'>En INNOVA es: "Convertirnos en líderes reconocidos en el campo de la asistencia digital, siendo el socio preferido para profesionales en la gestión de su presencia en línea."</p>
         </div>
       </section>
+      {/*<section>
+        <div className='container-lg text-center my-2 p-4'>
+          <h1 className='headline p-2 palanquin-dark-regular'>Nuestros Clientes</h1>
+            <p className='lead'> 
+              Nos enorgullece haber trabajado con reconocídos clientes tanto provinciales como nacionales, brindando siempre un servicio de alta calidad y confianza.
+            </p>
+        </div>
+        <div className='container-md mb-3'>
+          <Slider />
+        </div>
+      </section>*/}
       <section className='p-4' style={{
         backgroundImage: `url(${bg2})`,
         backgroundSize: 'cover',
@@ -45,6 +60,12 @@ function SobreNosotros() {
         </div>
       </section>
 
+      <section>
+        <div className='p-3 text-center'>
+          <img src={naty} alt=""  className='img-fluid rounded-circle img-face blue-shadow'/>
+          <p className='lead border-4 border-end border-start rounded-3 p-2'>Soy Natalia Chiappino, creadora y Directora de INNOVA. Con una sólida trayectoria en centros médicos y el sector comercial, me destaco por mi responsabilidad, cordialidad y espíritu extrovertido. Mi capacidad organizativa, liderazgo y habilidades en negociaciones y trabajo en equipo respaldan mi compromiso con la excelencia y el crecimiento continuo.</p>
+        </div>
+      </section>
     </>
   )
 }

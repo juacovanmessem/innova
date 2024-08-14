@@ -1,10 +1,19 @@
 .carousel,
 .carousel-item,
 .img-carousel {
-  height: 50vh;
-  width: 100vw;
+  min-height: 40vh;
+  max-height: 62vh;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .img-carousel {
   object-fit: cover; 
+}
+
+.map-container{
+  height: 300px;
+  width: 100%;
 }

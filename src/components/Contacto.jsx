@@ -10,10 +10,10 @@ function Contacto() {
           <i className="bi bi-telephone-inbound-fill"> +54 9 3815525207</i>
         </div>
         <div className=''>
-          <i class="bi bi-instagram"> innova.nc</i>
+          <i className="bi bi-instagram"> innova.nc</i>
         </div>
         <div className=''>
-          <i class="bi bi-envelope-at-fill"> info.innova.asistenciapo@gmail.com</i>
+          <i className="bi bi-envelope-at-fill"> info.innova.asistenciapo@gmail.com</i>
         </div>
       </div>
     </div>

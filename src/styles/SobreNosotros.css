@@ -18,3 +18,40 @@
   color: var(--colorSecundario);
   background-color: var(--colorPrincipal);
 }
+
+.img-face{
+  height: 172px;
+  width: 172px;
+}
+
+.active{
+  font-size: 16px;
+  color: var(--colorSecundario);
+  
+}
+
+.slider {
+  margin:0 20px;
+  overflow:"hidden";
+  padding:.2rem;
+  transition: background-color 0.3s ease-in-out;
+  border-radius:10px;
+
+}
+
+.slider img {
+  width: 100%;
+  border-radius:10px;
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: var(--colorPrincipal);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background: var(--colorPrincipal) !important;
+}
