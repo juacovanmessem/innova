@@ -9,7 +9,7 @@ function WP() {
   
   return (
     <section className='position-relative'>
-        <a href=""><img src={wp} alt="" className='img-fluid rounded-circle wp-icon'/></a>
+        <a href="https://wa.me/5493816217757" target='blank'><img src={wp} alt="" className='img-fluid rounded-circle wp-icon'/></a>
     </section>
   )
 }

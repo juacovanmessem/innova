@@ -4,6 +4,8 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../styles/CentroMedico.css'
+import mcenerg from '../assets/energia.jpg'
+import Card from 'react-bootstrap/Card';
 
 
 // Fix default marker icon issue in Leaflet
@@ -46,8 +48,25 @@ function CentroMedico() {
         </div>
         <div>
           <p className="headline p-2 palanquin-dark-regular text-center">Sistemas de Turnos</p>
-          <p className="container-md">Turnos por <a href="http://" className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 3815525207</p>
-          <p className="container-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eius distinctio fugiat dignissimos quam necessitatibus voluptate voluptatem quod odit, quo veritatis vero eligendi iusto obcaecati sed reprehenderit quaerat alias id.</p>
+          <p className="container-md">Turnos por <a href="https://wa.me/5493816217757" target='blank' className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 3815525207</p>
+        </div>
+      </section>
+      <section className='mb-3 lead'>
+      <div>
+          <p className="headline p-2 palanquin-dark-regular text-center">Médicos atendiendo</p>
+          <div className='container-md'>
+            <article>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={mcenerg} />
+                <Card.Body>
+                  <Card.Title>Andy Villarruel</Card.Title>
+                  <Card.Text>
+                    Médica energética, Coach Business, Coach Ontológico, Conteslaciones Familiares, Access the Bars
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+          </div>
         </div>
       </section>
     </>
