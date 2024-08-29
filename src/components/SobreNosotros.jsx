@@ -45,7 +45,7 @@ function SobreNosotros() {
         backgroundAttachment: 'fixed',
         backgroundRepeat: 'no-repeat'
         }}>
-        <div className='container-lg text-center bg-faded my-2 p-4'>
+        <div className='container-lg text-center bg-faded my-2 p-4 show'>
           <h1 className='headline palanquin-dark-regular'>TRABAJO EN EQUIPO</h1>
           <p className='lead'>
             En INNOVA, creemos en la fuerza del trabajo colaborativo y diverso. Detrás de cada servicio personalizado y solución eficiente, hay un equipo comprometido que trabaja en conjunto para llevar a cabo nuestra visión. 
@@ -62,8 +62,8 @@ function SobreNosotros() {
 
       <section>
         <div className='p-3 text-center'>
-          <img src={naty} alt=""  className='img-fluid rounded-circle img-face blue-shadow'/>
-          <p className='lead border-4 border-end border-start rounded-3 p-2'>Soy Natalia Chiappino, creadora y Directora de INNOVA. Con una sólida trayectoria en centros médicos y el sector comercial, me destaco por mi responsabilidad, cordialidad y espíritu extrovertido. Mi capacidad organizativa, liderazgo y habilidades en negociaciones y trabajo en equipo respaldan mi compromiso con la excelencia y el crecimiento continuo.</p>
+          <img src={naty} alt=""  className='img-fluid rounded-circle img-face blue-shadow show'/>
+          <p className='lead border-4 border-end border-start rounded-3 p-2 show'>Soy Natalia Chiappino, creadora y Directora de INNOVA. Con una sólida trayectoria en centros médicos y el sector comercial, me destaco por mi responsabilidad, cordialidad y espíritu extrovertido. Mi capacidad organizativa, liderazgo y habilidades en negociaciones y trabajo en equipo respaldan mi compromiso con la excelencia y el crecimiento continuo.</p>
         </div>
       </section>
     </>

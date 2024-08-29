@@ -55,7 +55,7 @@ function CentroMedico() {
       <div>
           <p className="headline p-2 palanquin-dark-regular text-center">Médicos atendiendo</p>
           <div className='container-md'>
-            <article>
+            <article  className='show'>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={mcenerg} />
                 <Card.Body>

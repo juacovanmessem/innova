@@ -68,9 +68,9 @@ function Servicios() {
         </div>
         <div>
           <ul className='list-group list-group-flush text-center container-md'>
-            <li className='list-group-item lead py-0'> Ahorra tiempo y espacio físico</li>
-            <li className='list-group-item lead py-0'> Sin cargas sociales ni material de oficina</li>
-            <li className='list-group-item lead py-0'> Asesoramiento profesional permanente</li>
+            <li className='list-group-item lead py-0 show'> Ahorra tiempo y espacio físico</li>
+            <li className='list-group-item lead py-0 show'> Sin cargas sociales ni material de oficina</li>
+            <li className='list-group-item lead py-0 show'> Asesoramiento profesional permanente</li>
           </ul>
         </div>
       </section>

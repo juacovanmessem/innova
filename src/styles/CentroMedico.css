@@ -1,8 +1,8 @@
 .carousel,
 .carousel-item,
 .img-carousel {
-  min-height: 40vh;
-  max-height: 62vh;
+  min-height: 55vh;
+  max-height: 60vh;
   width: 100%;
   display: flex;
   align-content: center;
