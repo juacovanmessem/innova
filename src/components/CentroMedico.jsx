@@ -48,7 +48,7 @@ function CentroMedico() {
         </div>
         <div>
           <p className="headline p-2 palanquin-dark-regular text-center">Sistemas de Turnos</p>
-          <p className="container-md">Turnos por <a href="https://wa.me/5493816217757" target='blank' className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 3815525207</p>
+          <p className="container-md">Turnos por <a href="https://wa.me/5493816217757" target='blank' className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 381 555-8618</p>
         </div>
       </section>
       <section className='mb-3 lead'>
