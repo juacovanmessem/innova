@@ -11,27 +11,21 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 768 },
-    items: 3,
+    items: 2,
     slidesToSlide: 1
   },
   mobile: {
-    breakpoint: { max: 767, min: 464 },
-    items: 2,
+    breakpoint: { max: 767, min: 350 },
+    items: 1,
     slidesToSlide: 1
   }
 };
 
 const sliderImageUrl = [
-  { title: 'item 1', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 2', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 3', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 4', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 5', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 6', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 7', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 8', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 9', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''},
-  { title: 'item 10', description: 'descripcion 1', url: "https://picsum.photos/200" ,logo:''}
+  { title: 'Cecilia Goizueta', description: 'Me permiten entregarles a mis pacientes la cercanía, el respeto, la posibilidad de reprogramar un turno, de estar más cerca de médicos de cabecera; y me permite a mí organizarme en mi trabajo. Fue una de las mejores decisiones que pude tomar.'},
+  { title: 'Graciela Varela', description: 'Hace más de un año todo el equipo de innova me viene acompañando, tanto en la gestión de la comunicación con pacientes de manera online, como también en las redes sociales en las que estoy involucrada. La experiencia siempre fue hermosa. Una calidez humana excepcional, tanto hacia los pacientes como hacia mí. Siempre demostraron un alto nivel de profesionalismo.'},
+  { title: 'Laura Vanelli', description: 'La verdad que estamos muy contentas. La página y los cursos funcionan bárbaro. Tenemos continuidad que eso era lo que más nos costaba, son super profesionales. Espero que sigamos todos juntos avanzando.'},
+  { title: 'Karina Gallardo', description: 'Vuestro valioso trabajo y organización son esenciales para el desarrollo de mi tarea cada día. Muchisimas gracias innova por todo su esfuerzo y dedicación.'},
 ];
 
 const Slider = () => {
@@ -46,6 +40,7 @@ const Slider = () => {
       <Carousel
         responsive={responsive}
         autoPlay={true}
+        autoPlaySpeed={20000}
         swipeable={true}
         draggable={true}
         showDots={true}
@@ -55,13 +50,11 @@ const Slider = () => {
         beforeChange={handleBeforeChange}  // Esto actualiza el índice antes de que se mueva el carrusel
       >
         {sliderImageUrl.map((imageUrl, index) => {
-          const isHighlighted = index === currentIndex % sliderImageUrl.length;
           return (
             <div 
               key={index} 
-              className={`border-4 border slider ${isHighlighted ? 'highlighted' : ''}` }
+              className={`border-4 border slider` }
             >
-              <img src={imageUrl.url} alt={imageUrl.title}/>
               <h3 className="display-6 text-center">{imageUrl.title}</h3>
               <p className="lead text-center">{imageUrl.description}</p>
             </div>

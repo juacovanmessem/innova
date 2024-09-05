@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/SobreNosotros.css'
 import bg2 from '../assets/fondo.2.jpg'
-import clientes from '../assets/clientes.jpg'
 import Slider from "./Slider";
 import naty from '../assets/naty.jpg';
 
@@ -28,7 +27,7 @@ function SobreNosotros() {
           <p className='lead'>En INNOVA es: "Convertirnos en líderes reconocidos en el campo de la asistencia digital, siendo el socio preferido para profesionales en la gestión de su presencia en línea."</p>
         </div>
       </section>
-      {/*<section>
+      <section>
         <div className='container-lg text-center my-2 p-4'>
           <h1 className='headline p-2 palanquin-dark-regular'>Nuestros Clientes</h1>
             <p className='lead'> 
@@ -38,7 +37,7 @@ function SobreNosotros() {
         <div className='container-md mb-3'>
           <Slider />
         </div>
-      </section>*/}
+      </section>
       <section className='p-4' style={{
         backgroundImage: `url(${bg2})`,
         backgroundSize: 'cover',
@@ -59,7 +58,6 @@ function SobreNosotros() {
           </p>
         </div>
       </section>
-
       <section>
         <div className='p-3 text-center'>
           <img src={naty} alt=""  className='img-fluid rounded-circle img-face blue-shadow show'/>
