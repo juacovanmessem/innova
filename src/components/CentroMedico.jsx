@@ -5,6 +5,11 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../styles/CentroMedico.css'
 import mcenerg from '../assets/energia.jpg'
+import florS from '../assets/FlorenciaS.jpg'
+import nadiaH from '../assets/NadiaH.jpg'
+import PabloR from '../assets/PabloR.jpg'
+import PaolaP from '../assets/PaolaP.jpg'
+import RoblesF from '../assets/RoblesF.jpg'
 import Card from 'react-bootstrap/Card';
 
 
@@ -54,14 +59,69 @@ function CentroMedico() {
       <section className='mb-3 lead'>
       <div>
           <p className="headline p-2 palanquin-dark-regular text-center">Médicos atendiendo</p>
-          <div className='container-md'>
-            <article  className='show'>
-              <Card style={{ width: '18rem' }}>
+          <div className='row g-0 justify-content-center'>
+            <article  className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
                 <Card.Img variant="top" src={mcenerg} />
                 <Card.Body>
                   <Card.Title>Andy Villarruel</Card.Title>
                   <Card.Text>
-                    Médica energética, Coach Business, Coach Ontológico, Conteslaciones Familiares, Access the Bars
+                    Médica energética.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={PabloR} />
+                <Card.Body>
+                  <Card.Title>Pablo Rodero</Card.Title>
+                  <Card.Text>
+                    Psicólogo
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={PaolaP} />
+                <Card.Body>
+                  <Card.Title>Pascual Paola</Card.Title>
+                  <Card.Text>
+                    Psicóloga
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={RoblesF} />
+                <Card.Body>
+                  <Card.Title>Maria Florencia Robles</Card.Title>
+                  <Card.Text>
+                    Psicóloga
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={nadiaH}/>
+                <Card.Body>
+                  <Card.Title>Nadia Heinecke</Card.Title>
+                  <Card.Text>
+                    Terapista ocupacional
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={florS} />
+                <Card.Body>
+                  <Card.Title>Florencia Sabia</Card.Title>
+                  <Card.Text>
+                    Odontóloga
                   </Card.Text>
                 </Card.Body>
               </Card>
