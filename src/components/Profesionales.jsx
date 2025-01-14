@@ -7,6 +7,7 @@ import GracielaV from '../assets/GracielaV.jpg'
 import LiliaLoboM from '../assets/LidiaLoboMarquez.jpg'
 import CeciliaR from '../assets/CeciliaR.jpg'
 import IvanM from '../assets/IvanM.jpg'
+import herreraE from '../assets/HerreraE.jpg'
 import '../styles/Profesionales.css'
 
 
@@ -81,7 +82,7 @@ function Profesionales() {
         link='https://wa.me/5493816217757'
 
       />
-       <Cards
+      <Cards
         className='my-2' 
         img= {LiliaLoboM}
         name={'Lilia'}
@@ -89,6 +90,18 @@ function Profesionales() {
         prof= {'Cardióloga'}
         schedule= {'De lunes a viernes de 8 a 14hrs.'}
         gender={0}
+        link='https://wa.me/5493816217757'
+
+      />
+      <Cards
+        className='my-2' 
+        img= {herreraE}
+        name={'Elizabeth'}
+        lastName={'Herrera'}
+        prof= {'Nutricionista y endocrinóloga'}
+        schedule= {'De lunes a viernes de 8 a 14hrs.'}
+        gender={0}
+        link='https://wa.me/5493816217757'
 
       />
       
