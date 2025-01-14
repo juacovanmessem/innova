@@ -11,7 +11,7 @@ function SobreNosotros() {
     <>
       <section>
         <div className='container-lg text-center my-2 p-4'>
-          <h1 className='headline p-2 palanquin-dark-regular'>¿Que es Innova?</h1>
+          <h1 className='headline p-2 palanquin-dark-regular'>¿Quiénes somos?</h1>
             <p className='lead'> 
               En INNOVA, nos especializamos en ofrecer soluciones digitales innovadoras y personalizadas para profesionales que buscan optimizar su presencia en línea y mejorar la eficiencia en sus tareas diarias. Con un equipo dedicado y apasionado, proporcionamos una gama completa de servicios diseñados para satisfacer las necesidades específicas de cada cliente.
             </p>

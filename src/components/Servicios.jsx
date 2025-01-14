@@ -36,13 +36,13 @@ function Servicios() {
           <h1 className='palanquin-dark-regular p-2 mb-4 headline'>NUESTROS SERVICIOS</h1>
         </div>
         <div className='row g-0 justify-content-evenly'>
-          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2' onClick={() => handleClickAlert('Atencion al cliente en WhatsApp y redes sociales:','Ofrecemos una atención personalizada excepcional ne cada mensaje. Gestionamos las interacciones brindando privacidad, empatía y cercanía con cada paciente. En INNOVA, cada mensaje es una oportunindad para construir relaciones sólidas')}>
+          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2 lead' onClick={() => handleClickAlert('Atencion al cliente en WhatsApp y redes sociales:','Ofrecemos una atención personalizada excepcional ne cada mensaje. Gestionamos las interacciones brindando privacidad, empatía y cercanía con cada paciente. En INNOVA, cada mensaje es una oportunindad para construir relaciones sólidas')}>
             <i className="bi bi-chat-right-text-fill display-1"></i>
             <p className='lead'>
               Atención al Cliente
             </p>
           </button>
-          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2' onClick={() => handleClickAlert('Secretaría Administrativa / Ejecutiva:','Libera tu tiempo de las tareas administrativas que consumen energía. Nos encargamos de la gestión eficiente de tu agendad, correos electrónicos y otras responsabilidades administrativas para que puedas enfocarte plenamente en tu tarea principal: la atención de tus pacientes.')}>
+          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2 lead' onClick={() => handleClickAlert('Secretaría Administrativa / Ejecutiva:','Libera tu tiempo de las tareas administrativas que consumen energía. Nos encargamos de la gestión eficiente de tu agendad, correos electrónicos y otras responsabilidades administrativas para que puedas enfocarte plenamente en tu tarea principal: la atención de tus pacientes.')}>
             <i className="bi bi-calendar-check display-1"></i>
             <p>
               Secretaria Administrativa y Ejecutiva
@@ -54,10 +54,16 @@ function Servicios() {
             Community Manager
           </p>
           </button>
-          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2' onClick={() => handleClickAlert('Asistencia en herramientas digitales:','Nos mantenemos a la vanguardia de la digitalización. Ofrecemos asistencia en plataformas y herramientas digitales.')}>
+          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2 lead' onClick={() => handleClickAlert('Asistencia en herramientas digitales:','Nos mantenemos a la vanguardia de la digitalización. Ofrecemos asistencia en plataformas y herramientas digitales.')}>
             <i className="bi bi-pc-display display-1"></i>
             <p>
               Asistencia con herramientas y plataformas digitales
+            </p>
+          </button>
+          <button className='rounded col-11 col-md-5 col-lg-2 bg-2 mb-2 lead' onClick={() => handleClickAlert('Desarrollo Web','Impulsa tu negocio con un sitio web profesional y atractivo. Ofrecemos soluciones personalizadas que destacan tu marca y mejoran la experiencia del usuario. ¡Lleva tu presencia online al siguiente nivel!')}>
+            <i className="bi bi bi-browser-edge display-1"></i>
+            <p>
+              Desarrollo Web
             </p>
           </button>
         </div>

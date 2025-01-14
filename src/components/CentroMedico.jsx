@@ -10,10 +10,10 @@ import nadiaH from '../assets/NadiaH.jpg'
 import PabloR from '../assets/PabloR.jpg'
 import PaolaP from '../assets/PaolaP.jpg'
 import RoblesF from '../assets/RoblesF.jpg'
+import herreraE from '../assets/HerreraE.jpg'
 import Card from 'react-bootstrap/Card';
 
 
-// Fix default marker icon issue in Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
@@ -84,17 +84,6 @@ function CentroMedico() {
             </article>
             <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
               <Card>
-                <Card.Img variant="top" src={PaolaP} />
-                <Card.Body>
-                  <Card.Title>Pascual Paola</Card.Title>
-                  <Card.Text>
-                    Psicóloga
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </article>
-            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
-              <Card>
                 <Card.Img variant="top" src={RoblesF} />
                 <Card.Body>
                   <Card.Title>Maria Florencia Robles</Card.Title>
@@ -122,6 +111,17 @@ function CentroMedico() {
                   <Card.Title>Florencia Sabia</Card.Title>
                   <Card.Text>
                     Odontóloga
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={herreraE} />
+                <Card.Body>
+                  <Card.Title>Herrera Elizabeth</Card.Title>
+                  <Card.Text>
+                    Nutricionista y endocrinóloga
                   </Card.Text>
                 </Card.Body>
               </Card>
