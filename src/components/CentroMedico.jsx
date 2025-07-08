@@ -5,11 +5,17 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../styles/CentroMedico.css'
 import mcenerg from '../assets/energia.jpg'
-import florS from '../assets/FlorenciaS.jpg'
-import nadiaH from '../assets/NadiaH.jpg'
 import PabloR from '../assets/PabloR.jpg'
-import PaolaP from '../assets/PaolaP.jpg'
-import RoblesF from '../assets/RoblesF.jpg'
+import bGuti from '../assets/BiancaGutierrez.jpg'
+import eCoronel from '../assets/EmiliaCoronel.jpg'
+import eLongo from '../assets/EugeniaLongo.jpg'
+import fCallejas from '../assets/FacundoCallejas.jpg'
+import lRodri from '../assets/LuciaRodriguez.jpg'
+import mGil from '../assets/MacarenaGil.jpg'
+import mFabiana from '../assets/MariaFabianaMoyano.jpg'
+import mMuñoz from '../assets/MarisaMuñozMolina.jpg'
+import mGonz from '../assets/MercedesGonzales.jpg'
+import rRitot from '../assets/RominaRitortoPiera.jpg'
 import Card from 'react-bootstrap/Card';
 
 
@@ -52,7 +58,7 @@ function CentroMedico() {
         </div>
         <div>
           <p className="headline p-2 palanquin-dark-regular text-center">Sistemas de Turnos</p>
-          <p className="container-md">Turnos por <a href="https://wa.me/5493816217757" target='blank' className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 381 555-8618</p>
+          <p className="container-md fs-3">Turnos por <a href="https://wa.me/5493816217757" target='blank' className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'> Whatsapp</a> o llamadas al +54 9 381 555-8618</p>
         </div>
       </section>
       <section className='mb-3 lead'>
@@ -63,9 +69,9 @@ function CentroMedico() {
               <Card>
                 <Card.Img variant="top" src={mcenerg} />
                 <Card.Body>
-                  <Card.Title>Andy Villarruel</Card.Title>
+                  <Card.Title>CPN Andy Villarruel</Card.Title>
                   <Card.Text>
-                    Médica energética.
+                    Coach
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -74,7 +80,7 @@ function CentroMedico() {
               <Card>
                 <Card.Img variant="top" src={PabloR} />
                 <Card.Body>
-                  <Card.Title>Pablo Rodero</Card.Title>
+                  <Card.Title>Lic. Pablo Rodero</Card.Title>
                   <Card.Text>
                     Psicólogo
                   </Card.Text>
@@ -83,9 +89,9 @@ function CentroMedico() {
             </article>
             <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
               <Card>
-                <Card.Img variant="top" src={RoblesF} />
+                <Card.Img variant="top" src={lRodri} />
                 <Card.Body>
-                  <Card.Title>Maria Florencia Robles</Card.Title>
+                  <Card.Title>Lic. Ana Lucía Rodriguez</Card.Title>
                   <Card.Text>
                     Psicóloga
                   </Card.Text>
@@ -94,22 +100,99 @@ function CentroMedico() {
             </article>
             <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
               <Card>
-                <Card.Img variant="top" src={nadiaH}/>
+                <Card.Img variant="top" src={rRitot}/>
                 <Card.Body>
-                  <Card.Title>Nadia Heinecke</Card.Title>
+                  <Card.Title>Dra. Romina Ritorto Piera</Card.Title>
                   <Card.Text>
-                    Terapista ocupacional
+                    Psiquiatra
                   </Card.Text>
                 </Card.Body>
               </Card>
             </article>
             <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
               <Card>
-                <Card.Img variant="top" src={florS} />
+                <Card.Img variant="top" src={mMuñoz} />
                 <Card.Body>
-                  <Card.Title>Florencia Sabia</Card.Title>
+                  <Card.Title>Lic. Marisa Muñoz Molina</Card.Title>
                   <Card.Text>
-                    Odontóloga
+                    Fonoaudiologa
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={bGuti} />
+                <Card.Body>
+                  <Card.Title>Lic. Bianca Gutiérrez</Card.Title>
+                  <Card.Text>
+                    Nutricionista
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={eLongo} />
+                <Card.Body>
+                  <Card.Title>Dra. Eugenia Longo</Card.Title>
+                  <Card.Text>
+                    Obstetra / Ginecologa
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={mFabiana} />
+                <Card.Body>
+                  <Card.Title>Lic. María Fabiana Moyano</Card.Title>
+                  <Card.Text>
+                    Fonoaudiologa
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={fCallejas} />
+                <Card.Body>
+                  <Card.Title>Lic. Facundo Callejas</Card.Title>
+                  <Card.Text>
+                    Psicopedagogo
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={eCoronel} />
+                <Card.Body>
+                  <Card.Title>Lic. Emilia Coronel</Card.Title>
+                  <Card.Text>
+                    Asistene en Estimulación temprana
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={mGonz} />
+                <Card.Body>
+                  <Card.Title>Dra. Mercedes Gonzáles</Card.Title>
+                  <Card.Text>
+                    Clinica
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </article>
+            <article className='show2 col-12 col-md-4 col-lg-3 p-4 justify-content-center'>
+              <Card>
+                <Card.Img variant="top" src={mGil} />
+                <Card.Body>
+                  <Card.Title>Lic. Macarena Gil</Card.Title>
+                  <Card.Text>
+                    Psicopedagoga
                   </Card.Text>
                 </Card.Body>
               </Card>
