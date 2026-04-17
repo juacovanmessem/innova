@@ -48,9 +48,6 @@ function Cards({ img, name, lastName, prof, schedule, gender, link }) {
             {prof}
           </Card.Text>
         </Card.Body>
-        <Card.Body>
-          <button onClick={() => handleClickSchedule(schedule, link)} className='btn-reserva p-2 text-white rounded-2'>Reservar un turno</button>
-        </Card.Body>
       </Card>
     </>
   );

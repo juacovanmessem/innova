@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import '../styles/SobreNosotros.css'
 
 const responsive = {
   desktop: {

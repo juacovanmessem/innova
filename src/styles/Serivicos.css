@@ -1,5 +1,5 @@
 .bg-2{
-  background-color: #1c6180;
+  background-color: var(--colorPrincipal);
   color: var(--colorFondo);
 }
 
