@@ -1,0 +1,164 @@
+/* ══════════════════════════════════════════════
+   FOOTER — NEXA
+   Fondo: colorPrincipal (morado)
+   Textos: crema y teal
+══════════════════════════════════════════════ */
+
+.ft-footer {
+  background: var(--colorPrincipal);
+  padding: 0;
+  position: relative;
+}
+
+/* franja decorativa superior: terciario → dorado */
+.ft-top-bar {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--colorTerciario) 0%,
+    #f5b800 50%,
+    var(--colorSecundario) 100%
+  );
+}
+
+/* contenedor de tres columnas */
+.ft-inner {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: clamp(24px, 4vw, 56px);
+  max-width: var(--max, 1200px);
+  margin: 0 auto;
+  padding: 48px var(--pad, clamp(16px, 3.5vw, 32px)) 40px;
+}
+
+/* ── Columna marca ── */
+.ft-brand-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--colorFondo);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+
+.ft-brand-sub {
+  font-size: .72rem;
+  font-weight: 300;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: var(--colorSecundario);
+  margin: 0 0 16px;
+}
+
+.ft-tagline {
+  font-size: .85rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgba(246, 245, 232, .55);
+  margin: 0;
+  max-width: 280px;
+}
+
+/* ── Columnas de info ── */
+.ft-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ft-col-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: var(--colorSecundario);
+  margin: 0 0 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(64, 223, 208, .2);
+}
+
+/* ── Links ── */
+.ft-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: .84rem;
+  font-weight: 300;
+  color: rgba(246, 245, 232, .75);
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color .2s;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.ft-link:hover {
+  color: var(--colorSecundario);
+}
+
+.ft-link-icon {
+  font-size: 1rem;
+  color: var(--colorTerciario);
+  flex-shrink: 0;
+  margin-top: 2px;
+  transition: color .2s;
+}
+
+.ft-link:hover .ft-link-icon {
+  color: var(--colorSecundario);
+}
+
+/* botón email — mismo aspecto que los links */
+.ft-link-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: .78rem;   /* email largo, un poco más chico */
+  word-break: break-all;
+}
+
+/* badge de cuenta */
+.ft-link-badge {
+  display: block;
+  font-size: .7rem;
+  font-weight: 400;
+  color: rgba(246, 245, 232, .35);
+  letter-spacing: .04em;
+  margin-top: 2px;
+}
+
+/* ── Barra inferior ── */
+.ft-bottom {
+  border-top: 1px solid rgba(255, 255, 255, .06);
+  padding: 16px var(--pad, clamp(16px, 3.5vw, 32px));
+  text-align: center;
+}
+
+.ft-copy {
+  font-size: .75rem;
+  font-weight: 300;
+  color: rgba(246, 245, 232, .3);
+  margin: 0;
+  letter-spacing: .04em;
+}
+
+/* ── Responsive ── */
+@media (max-width: 680px) {
+  .ft-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 32px;
+  }
+
+  .ft-tagline {
+    max-width: 100%;
+  }
+
+  .ft-link-btn {
+    font-size: .75rem;
+  }
+}

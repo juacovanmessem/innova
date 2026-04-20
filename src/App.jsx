@@ -8,9 +8,10 @@ import Servicios from './components/Servicios';
 import Profesionales from './components/Profesionales';
 import Formulario from './components/Formulario';
 import SobreNosotros from './components/SobreNosotros2';
-import Contacto from './components/Contacto';
+import Contacto from './components/Footer';
 import WP from './components/WP';
-
+import Footer from './components/Footer';
+import './styles/Footer.css';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState(<SobreNosotros />);
@@ -36,7 +37,6 @@ function App() {
         </div>
         <div className="col-12 text-center menu-brand">
           <p className="brand-name">Nexa</p>
-          <p className="brand-sub">Gestión digital con criterio humano</p>
           <div className="brand-divider" />
         </div>
       </section>
@@ -65,7 +65,7 @@ function App() {
 
       <div>
         {activeComponent}
-        <Contacto />
+        <Footer />
       </div>
 
       <div className="fixed-bottom-right">
